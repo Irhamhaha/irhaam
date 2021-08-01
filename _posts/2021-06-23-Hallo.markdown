@@ -1,0 +1,30 @@
+---
+layout: 'post'
+title: "Hallo"
+date: 2021-06-23 00:00
+permalink: '/blog/:title'
+author: 'Irham'
+license: true
+comments: true
+toc: true
+categories: 'HHHH'
+tags: ['Tips']
+pin:
+hot:
+contributors: []
+description: "Hallo semua Salam kenal"
+---
+
+<h1>Halo semua</h1> Salam kenal dengan membuat postingan ini saya memberitahukan bahwa saya lagi migrasi dari hugo ke jekyll maka saya membutuhkan waktu untuk migrasi postingan dari hugo saya pindahkan ke sini.
+Mohon sabar menunggu ya .
+
+{% box_info %}
+<p markdown=1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex sapiente dicta,<br>
+consequuntur veritatis, ipsum quos, hic dolores alias possimus reiciendis doloremque cupiditate nisi.<br>
+Quaerat adipisci blanditiis sit quos, soluta iste.<p>
+{% endbox_info %}
+
+{% highlight_caption _posts/blog/2021/2021-01-01-contoh-artikel.md %}
+{% highlight liquid %}
+{% raw %}![gambar_1]({{ site.lazyload.logo_blank }}){:data-echo="https://i.postimg.cc/wT7rfFFX/gambar-01.png" onerror="imgError(this);"}{:class="myImg"}{% endraw %}
+{% endhighlight %}

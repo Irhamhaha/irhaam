@@ -1,0 +1,58 @@
+--- 
+layout: default 
+---
+<!-- This is an example component -->
+<div class="">
+    <div class='flex max-w-xl my-8 bg-white shadow-lg rounded-lg overflow-hidden mx-auto'>
+        <div class='flex items-center w-full'>
+            <div class='w-full'>
+                <div class="flex flex-row mt-2 px-2 py-3 mx-3">
+                    <div class="w-auto h-auto rounded-full border-2 border-pink-500">
+                        <img class='w-12 h-12 object-cover rounded-full shadow cursor-pointer' alt='User avatar' src='/assets/img/user.svg'>
+                    </div>
+                    <div class="flex flex-col mb-2 ml-4 mt-1">
+                        <div class='text-gray-600 text-sm font-semibold'>{{ page.title | default: site.title }}</div>
+                        <div class='flex w-full mt-1'>
+                            <div class='text-blue-700 font-base text-xs mr-1 cursor-pointer'>
+                                <span>{% if page.author %}{{ page.author | escape }}{% else %}{{ site.author | escape }}{% endif %}</span>
+                            </div> 
+                            <div class='text-gray-600 font-thin text-xs'>
+                                • {{ page.date | date: "%B  %d, %Y" }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-b border-gray-100"></div>
+                <br><br>
+                <article class='prose lg:prose-lg max-w-3xl mx-auto px-4 pt-8 md:pt-0 pb-16'>{{ content }}</article>
+                <div class='px-5 py-3'>
+                    <h3 class="font-bold text-xs" >TAGS</h3>    
+                    <!-- This is the tags container -->       
+                    <div class='my-3 flex flex-wrap -m-1'>
+                        {% for tag in page.tags %}
+                            <a href="/tag/{{tag}}">
+                                <span class="m-1 bg-gray-200 hover:bg-gray-300 rounded-full px-2 font-bold text-sm leading-loose cursor-pointer">#{{tag}}</span>
+                                {%unless forloop.last %} -{% endunless %}
+                            </a>
+                        {% endfor %}
+                    </div>
+                </div>
+                <!-- <div class='px-5 py-3'> -->
+                    <!-- <h3 class="font-bold text-xs" >Kategori</h3>     -->
+                    <!-- This is the tags container -->       
+                    <!-- <div class='my-3 flex flex-wrap -m-1'> -->
+                        <!-- {% for kategori in page.categories %} -->
+                            <!-- <a href="/kategori/{{kategori}}"> -->
+                                <!-- <span class="m-1 bg-gray-200 hover:bg-gray-300 rounded-full px-2 font-bold text-sm leading-loose cursor-pointer">#{{kategori}}</span> -->
+                                <!-- {%unless forloop.last %} -{% endunless %} -->
+                            <!-- </a> -->
+                        <!-- {% endfor %} -->
+                    <!-- </div> -->
+                <!-- </div> -->
+            </div>
+        </div>
+    </div>
+    <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="matheusgongo" data-description="Support me on Buy me a coffee!" data-message="Thank you for visiting! :D" data-color="#BD5FFF" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+</div>
+{% include disqus.html %}
+{% include footer.html %}

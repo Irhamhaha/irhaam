@@ -1,0 +1,21 @@
+
+{% if paginator.total_pages > 1 %}
+<div class="pagination flex justify-center">
+  <div class="mx-1 px-3 py-2 bg-gray-200 text-gray-700 hover:bg-gray-700 hover:text-gray-200 rounded-lg">
+    {% if paginator.previous_page %}
+      <a class="flex items-center font-bold" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+    {% else %}
+      <span class="hover:bg-none">&laquo; Prev</span>
+    {% endif %}
+  </div>
+
+
+  <div class="mx-1 px-3 py-2 bg-gray-200 text-gray-700 hover:bg-gray-700 hover:text-gray-200 rounded-lg">
+    {% if paginator.next_page %}
+      <a class="flex items-center font-bold" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+    {% else %}
+      <span class="mx-1">Next &raquo;</span>
+    {% endif %}
+  </div>
+</div>
+{% endif %}

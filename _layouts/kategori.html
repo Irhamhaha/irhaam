@@ -1,0 +1,38 @@
+---
+layout: default
+---
+  <head>
+    <title>Tag: #{{page.kategori}}</title>
+  </head>
+
+<h3 class="ui aligned header container">
+  <div class="ui breadcrumb">
+    <a href="/" class="section"><i class="home icon"></i>Home</a>
+    <i class="right arrow icon divider"></i>
+    <div class="active section">{{ page.title | default: site.title }} </div>
+  </div>
+</h3>
+<div class="ui text container ui left aligned container">
+  <div class="w-full max-w-screen-xl mx-auto px-6">
+    <div class="flex justify-center p-4 px-3 py-10">
+        <div class="w-full max-w-md">
+            <div class="bg-white shadow-md rounded-lg px-3 py-2 mb-4">
+                <div class="block text-gray-700 text-lg font-semibold py-2 px-2">
+                  <h2><b>Kategori: {{page.kategori}}</b></h2>
+                </div>
+                <div class="py-3 text-sm">
+                    {% for post in site.posts %}
+                    {% if post.categories contains page.kategori %}
+                    <div class="flex justify-start cursor-pointer text-gray-700 hover:text-blue-400 hover:bg-blue-100 rounded-md px-2 py-2 my-2">
+                        <span class="bg-green-400 h-2 w-2 m-2 rounded-full"></span>
+                        <div class="flex-grow font-medium px-2"><a href="{{ post.url }}">{{ post.title }}</a></div>
+                        <div class="text-sm font-normal text-gray-500 tracking-wide"></div>
+                    </div>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
