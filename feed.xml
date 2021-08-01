@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Androcode</title>
+    <description>Androcode Menupakan sebuah blog hasil belajar yg di tulis kembali kedalam blog ini supaya tidak cepat lupa.</description>
+    <link>https://irhamhaha.github.io/</link>
+    <atom:link href="https://irhamhaha.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 01 Aug 2021 13:09:43 +0000</pubDate>
+    <lastBuildDate>Sun, 01 Aug 2021 13:09:43 +0000</lastBuildDate>
+    <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Hallo</title>
+        <description>&lt;h1&gt;Halo semua&lt;/h1&gt;
+&lt;p&gt;Salam kenal dengan membuat postingan ini saya memberitahukan bahwa saya lagi migrasi dari hugo ke jekyll maka saya membutuhkan waktu untuk migrasi postingan dari hugo saya pindahkan ke sini.
+Mohon sabar menunggu ya .&lt;/p&gt;
+
+&lt;!-- INFORMATION --&gt;
+&lt;div class=&quot;blockquote-blue&quot;&gt;&lt;div class=&quot;blockquote-blue-title&quot;&gt;&lt;img src=&quot;/assets/img/logo/logo_note.svg&quot; /&gt;Informasi&lt;/div&gt;&lt;div&gt;
+    &lt;p&gt;Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex sapiente dicta,&lt;br /&gt;
+consequuntur veritatis, ipsum quos, hic dolores alias possimus reiciendis doloremque cupiditate nisi.&lt;br /&gt;
+Quaerat adipisci blanditiis sit quos, soluta iste.&amp;lt;p&amp;gt;
+&amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;
+
+&amp;lt;div class=&quot;highlight-caption&quot;&amp;gt;&lt;span class=&quot;label&quot;&gt;FILE&lt;/span&gt;&lt;code&gt;_posts/blog/2021/2021-01-01-contoh-artikel.md&lt;/code&gt;&amp;lt;/div&amp;gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&amp;lt;pre&amp;gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;![gambar_1](&lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;lazyload&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;logo_blank&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;){:data-echo=&quot;https://i.postimg.cc/wT7rfFFX/gambar-01.png&quot; onerror=&quot;imgError(this);&quot;}{:class=&quot;myImg&quot;}&lt;/code&gt;&amp;lt;/pre&amp;gt;&lt;/figure&gt;
+
+&lt;/p&gt;
+  &lt;/div&gt;&lt;/div&gt;
+</description>
+        <pubDate>Wed, 23 Jun 2021 00:00:00 +0000</pubDate>
+        <link>https://irhamhaha.github.io/blog/Hallo</link>
+        <guid isPermaLink="true">https://irhamhaha.github.io/blog/Hallo</guid>
+        
+        <category>Tips</category>
+        
+        
+        <category>HHHH</category>
+        
+      </item>
+    
+      <item>
+        <title>Belajar Python : Function</title>
+        <description>&lt;p&gt;Fungsi adalah organisasi yang baik, dapat digunakan kembali, digunakan untuk mencapai segmen kode tunggal, atau fungsi yang terkait.
+&lt;!--more--&gt;
+Fungsi dapat diterapkan untuk meningkatkan modularitas dan menggunakan kembali kode.&lt;/p&gt;
+
+&lt;p&gt;Contoh fungsi sederhananya seperti berikut&lt;/p&gt;
+
+&lt;h3 id=&quot;contoh&quot;&gt;contoh&lt;/h3&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Ini adalah fungsi
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hai&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# Dan ini untuk memanggil fungsi
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Hasilnya 
+&lt;img src=&quot;/assets/img/placeholder.svg&quot; alt=&quot;gambar_image&quot; data-echo=&quot;https://1.bp.blogspot.com/-6s-guVWgpwQ/X3MICjKY5vI/AAAAAAAAE5o/AI16stD37YETo3j2e0ly_BPZw-RPYO3LACLcBGAsYHQ/s588/2020-09-29-100712_538x103_scrot-framed.png&quot; onerror=&quot;imgError(this);&quot; class=&quot;myImg rounded-sm&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;fungsi-panggilan&quot;&gt;Fungsi panggilan&lt;/h2&gt;
+&lt;p&gt;Mendefinisikan fungsi: untuk memberikan fungsi nama, menentukan parameter dari fungsi mengandung, dan struktur kode blok.&lt;/p&gt;
+
+&lt;h3 id=&quot;contoh-1&quot;&gt;contoh&lt;/h3&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nama&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nama&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Irham&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/placeholder.svg&quot; alt=&quot;gambar_image fungsi&quot; data-echo=&quot;https://1.bp.blogspot.com/-wLcfvGkzc0Q/X3MIDyroA2I/AAAAAAAAE5s/DnVP03N6apgIIB99CeO0zBaC-AYWWaLPACLcBGAsYHQ/s540/2020-09-29-100759_540x91_scrot.png&quot; onerror=&quot;imgError(this);&quot; class=&quot;myImg rounded-sm&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
+        <link>https://irhamhaha.github.io/python-function/</link>
+        <guid isPermaLink="true">https://irhamhaha.github.io/python-function/</guid>
+        
+        <category>python</category>
+        
+        
+        <category>PYTHON</category>
+        
+      </item>
+    
+      <item>
+        <title>Belajar Python  : Loop</title>
+        <description>&lt;p&gt;oop digunakan untuk mengulangi urutan (baik list, tupel, dictionary, set, atau string).
+&lt;!--more--&gt;&lt;/p&gt;
+&lt;h2 id=&quot;python-for-loop&quot;&gt;Python For Loop&lt;/h2&gt;
+&lt;p&gt;Ini kurang seperti kata kunci for dalam bahasa pemrograman lain, dan berfungsi lebih seperti metode iterator seperti yang ditemukan dalam bahasa pemrograman berorientasi objek lainnya..&lt;/p&gt;
+
+&lt;p&gt;Dengan for loop kita dapat mengeksekusi seperangkat pernyataan, satu kali untuk setiap item dalam list, tuple, set dll.&lt;/p&gt;
+
+&lt;h5 id=&quot;misalnya-&quot;&gt;Misalnya :&lt;/h5&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;buah&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;melon&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;juwet&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;jeruk&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;buah&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h5 id=&quot;output-&quot;&gt;Output :&lt;/h5&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;melon
+juwet
+jeruk
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;break-statement&quot;&gt;Break Statement&lt;/h2&gt;
+&lt;p&gt;Dengan pernyataan break, kita dapat menghentikan loop sebelum loop melewati semua item.&lt;/p&gt;
+&lt;h5 id=&quot;misalnya--1&quot;&gt;Misalnya :&lt;/h5&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;buah&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;melon&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;juwet&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;jeruk&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;buah&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;juwet&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h5 id=&quot;output&quot;&gt;Output&lt;/h5&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;melon
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;continue-statment&quot;&gt;Continue Statment&lt;/h2&gt;
+&lt;p&gt;Dengan pernyataan continue, kita dapat menghentikan iterasi loop saat ini, dan melanjutkan dengan yang berikutnya.&lt;/p&gt;
+
+&lt;h5 id=&quot;misalnya--2&quot;&gt;Misalnya :&lt;/h5&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;buah&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;melon&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;juwet&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;jeruk&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;buah&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;juwet&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;continue&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h5 id=&quot;output--1&quot;&gt;Output :&lt;/h5&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;melon
+jeruk
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;range-function&quot;&gt;range() Function&lt;/h2&gt;
+&lt;p&gt;Untuk mengulang satu set kode beberapa kali, kita dapat menggunakan fungsi range(),&lt;/p&gt;
+
+&lt;p&gt;Fungsi range() mengembalikan urutan angka, mulai dari 0 secara default, dan bertambah dengan 1 (secara default), dan berakhir pada angka yang ditentukan.&lt;/p&gt;
+&lt;h5 id=&quot;misalnya--3&quot;&gt;Misalnya :&lt;/h5&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h5 id=&quot;output--2&quot;&gt;Output :&lt;/h5&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Perhatikan bahwa range(10) bukan nilai 0 hingga 10, tetapi nilai 0 hingga 9.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Fungsi range() default ke 0 sebagai nilai awal, namun dimungkinkan untuk menentukan nilai awal dengan menambahkan parameter: rentang(2, 10), yang berarti nilai dari 2 hingga 10 (tetapi tidak termasuk 10).&lt;/p&gt;
+
+&lt;h5 id=&quot;misalnya--4&quot;&gt;Misalnya :&lt;/h5&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h5 id=&quot;output--3&quot;&gt;Output :&lt;/h5&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;2
+3
+4
+5
+6
+7
+8
+9
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Fungsi range() secara default untuk menambah urutan dengan 1, namun dimungkinkan untuk menentukan nilai kenaikan dengan menambahkan parameter ketiga: rentang (2, 30, 3):&lt;/p&gt;
+
+&lt;h5 id=&quot;misalnya--5&quot;&gt;Misalnya :&lt;/h5&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;30&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h5 id=&quot;output--4&quot;&gt;Output :&lt;/h5&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;2
+5
+8
+11
+14
+17
+20
+23
+26
+29 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;else-in-for-loop&quot;&gt;Else in For Loop&lt;/h2&gt;
+&lt;p&gt;Keyword dalam loop untuk menentukan blok kode yang akan dieksekusi ketika loop selesai.&lt;/p&gt;
+
+&lt;h5 id=&quot;misalnya--6&quot;&gt;Misalnya :&lt;/h5&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Yea.. Selesai&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; 
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h5 id=&quot;outputnya-&quot;&gt;Outputnya :&lt;/h5&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+Yea.. Selesai
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;loop-bersarang&quot;&gt;Loop Bersarang&lt;/h2&gt;
+&lt;p&gt;Loop bersarang adalah loop di dalam loop.&lt;/p&gt;
+
+&lt;p&gt;“Loop dalam” akan dieksekusi satu kali untuk setiap iterasi “loop luar”.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;adj&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;red&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;big&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;tasty&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;fruits&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;apple&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;banana&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;cherry&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;adj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fruits&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h5 id=&quot;outputnya--1&quot;&gt;Outputnya :&lt;/h5&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;red apple
+red banana
+red cherry
+big apple
+big banana
+big cherry
+tasty apple
+tasty banana
+tasty cherry 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;);&lt;/p&gt;
+</description>
+        <pubDate>Wed, 09 Dec 2020 07:35:33 +0000</pubDate>
+        <link>https://irhamhaha.github.io/python-loop/</link>
+        <guid isPermaLink="true">https://irhamhaha.github.io/python-loop/</guid>
+        
+        <category>python</category>
+        
+        
+        <category>PYTHON</category>
+        
+      </item>
+    
+      <item>
+        <title>Belajar Python : Python If Else</title>
+        <description>&lt;p&gt;Percabangan &lt;em&gt;ifelse&lt;/em&gt; di gunakan pada saat ada dua pilihan.
+&lt;!--more--&gt;
+Misalkan, jika umur diatas 18 tahun boleh naik wahana permainan. Sedangkan dibawah itu belum boleh.&lt;/p&gt;
+
+&lt;h3 id=&quot;contoh&quot;&gt;contoh&lt;/h3&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;umur&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Berapa umur kamu: &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+ 
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;umur&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;18&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Kamu boleh Menauki wahana ini&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Kamu belum boleh menaiki wahana ini&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Maka hasilnya akan seperti ini&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/placeholder.svg&quot; alt=&quot;gambar_python&quot; data-echo=&quot;https://1.bp.blogspot.com/-MTz_mV53PY0/X3MCZjrZaCI/AAAAAAAAE5c/jtQwPk1yIrg-j4zakC-1tjK5GOgJZs9MwCLcBGAsYHQ/s586/2020-09-29-093951_536x172_scrot-framed.png&quot; onerror=&quot;imgError(this);&quot; class=&quot;myImg rounded-sm&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
+        <link>https://irhamhaha.github.io/python-if/</link>
+        <guid isPermaLink="true">https://irhamhaha.github.io/python-if/</guid>
+        
+        <category>python</category>
+        
+        
+        <category>PYTHON</category>
+        
+      </item>
+    
+      <item>
+        <title>Belajar Python : Variables Python</title>
+        <description>&lt;p&gt;Variable adalah nama yang di gunakan untuk merujuk lokasi memori.
+&lt;!--more--&gt;
+Variable juga di kenal sebagai pengidentifikasi dan digunakan untuk menyimpan nilai
+Dalam python kita tidak perlu menentukan jenis variable karena python adalah jenis bahasa yang disimpulkan dan cukup pintar untuk mendapatkan jenis variable.
+Nama variable dapat berupa kelompok huruf dan angk, tetapi harus di awali dengan huruf atau garis bawah/underscore.
+Dianjurkan untuk menggunakan huruf keciluntuk nama variable.
+Satu dan satu adalah dua variable yang berbeda.&lt;/p&gt;
+
+&lt;h4 id=&quot;penamaan-identifier&quot;&gt;Penamaan Identifier&lt;/h4&gt;
+
+&lt;p&gt;Variable adalah contoh pengidentifikasi Identifier digunakan untuk mengidentifikasi literal yang di gunakan dalam progrogram
+Aturan untuk memberi nama seperti di hawah.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Karakter pertama harus berupa huruf atau underscore.&lt;/li&gt;
+  &lt;li&gt;Semua karakter kecuali karakter pertama mungkin merupakan huruf kecil (a-z), huruf besar (A-Z) atau underscore dan digit (0_9).&lt;/li&gt;
+  &lt;li&gt;Nama pengidentifikasi tidak boleh  mengandung spasi atau karaker khusus (!, @, #,%, ^, &amp;amp;, * ).&lt;/li&gt;
+  &lt;li&gt;Nama pengidentifikasi tiak boleh mirip dengan kata kunci apapun yang di tentukan dalam bahasa.&lt;/li&gt;
+  &lt;li&gt;Nama pengenal terhadap huruf besar kecil, misal myname dan Myname tidak sama.&lt;/li&gt;
+  &lt;li&gt;Contoh pengidentifikasi yang valid (a123,_ n,n_9).&lt;/li&gt;
+  &lt;li&gt;Contoh pengidentifikasi yang tidak valid (1a,n%4,n 9).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;mendeklarasikan-variable-dan-menetapkan-nilai&quot;&gt;Mendeklarasikan variable dan menetapkan nilai&lt;/h4&gt;
+
+&lt;p&gt;Python tidak mengikat kita untuk Mendeklarasikan variale sebelum di gunakan dalam aplikasi, ini memungkinkan kita membuat variable pada waktu yang di perlukan.
+Kita tidak perlu Mendeklarasikan variable eksplisit dalam python. ketika kami memberikan nilai apapun ke variable itu variable tersebut dinyatakan secara otomatis.
+Operator (=) digunakan untuk menetapkan nilai ke Variable.&lt;/p&gt;
+
+&lt;h6 id=&quot;misalnya&quot;&gt;Misalnya&lt;/h6&gt;
+
+&lt;div class=&quot;language-py highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;#a = variable, 10 = values atau nilai
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;andro&quot;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;#name = variable, andro = values atau nilai
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h6 id=&quot;output&quot;&gt;output&lt;/h6&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;10
+andro
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;penugasan-berganda&quot;&gt;Penugasan berganda&lt;/h4&gt;
+
+&lt;p&gt;Python memungkinkan kita menetapkan nilai ke dalam beberapa variable dalam satu pernyataan yang juga di kenal sebagai banyak tugas.
+Kita bisa menetapkan beberapa penugasan dengan dua cara baik dengan menerapkan nilai tunggal ke beberapa variable atau menetapkan beberapa nilai ke beberapa variable.&lt;/p&gt;
+
+&lt;h4 id=&quot;1-menerapkan-nilai-tunggal-ke-beberapa-variable-&quot;&gt;1. Menerapkan nilai tunggal ke beberapa variable :&lt;/h4&gt;
+
+&lt;h6 id=&quot;misalnya-1&quot;&gt;Misalnya&lt;/h6&gt;
+
+&lt;div class=&quot;language-py highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h6 id=&quot;output-1&quot;&gt;output&lt;/h6&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;10
+10
+10
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;2-menugaskan-beberapa-nilai-ke-beberapa-variable-&quot;&gt;2. Menugaskan beberapa nilai ke beberapa variable :&lt;/h4&gt;
+
+&lt;h6 id=&quot;misalnya-2&quot;&gt;Misalnya&lt;/h6&gt;
+
+&lt;div class=&quot;language-py highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;30&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h6 id=&quot;output-2&quot;&gt;output&lt;/h6&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;10
+20
+30
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Nilai-nilai akan di berikan dalam urutan di mana variable muncul.&lt;/p&gt;
+
+&lt;h4 id=&quot;fundamental-dasar&quot;&gt;Fundamental Dasar&lt;/h4&gt;
+
+&lt;p&gt;Berikut ini berisi dasar-dasar python :
+Bagian ini berisi dasar-dasar dasar Python seperti:&lt;/p&gt;
+
+&lt;p&gt;i) Token dan tipenya.&lt;/p&gt;
+
+&lt;p&gt;ii) Komentar&lt;/p&gt;
+
+&lt;p&gt;a) Token:&lt;/p&gt;
+
+&lt;p&gt;Token dapat didefinisikan sebagai tanda punctuator, kata-kata yang dicadangkan, dan setiap kata individual dalam sebuah pernyataan.
+Token adalah unit terkecil di dalam program yang diberikan.
+Ada token berikut dalam Python:&lt;/p&gt;
+
+&lt;h4 id=&quot;kata-kunci&quot;&gt;Kata kunci.&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Pengidentifikasi.&lt;/li&gt;
+  &lt;li&gt;Literal.&lt;/li&gt;
+  &lt;li&gt;Operator.
+    &lt;h4 id=&quot;tuples&quot;&gt;Tuples:&lt;/h4&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Tuple adalah bentuk pengumpulan di mana berbagai jenis data dapat - disimpan.&lt;/li&gt;
+  &lt;li&gt;Ini mirip dengan daftar tempat data dipisahkan oleh koma. Hanya bedanya adalah bahwa daftar menggunakan braket persegi dan tupel menggunakan tanda kurung.&lt;/li&gt;
+  &lt;li&gt;Tuple terlampir dalam tanda kurung dan tidak dapat diubah.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 25 Nov 2020 00:00:00 +0000</pubDate>
+        <link>https://irhamhaha.github.io/python-variable/</link>
+        <guid isPermaLink="true">https://irhamhaha.github.io/python-variable/</guid>
+        
+        <category>python</category>
+        
+        
+        <category>Python</category>
+        
+      </item>
+    
+      <item>
+        <title>Belajar Python : Tipe Data Python</title>
+        <description>&lt;p&gt;Variable dapat menyimpan nilai dari tepe data yang berbeda.
+&lt;!--more--&gt;
+Python adalah bahasa yang di tulis secara dinamis maka kita tidak perlu mendefinisikan jenis Variable saat mendeklarasikannya.&lt;/p&gt;
+
+&lt;p&gt;Python memungkinkan kita untuk memeriksa Variable yang di gunakan dalam program dengan fungsi type().&lt;/p&gt;
+
+&lt;h6 id=&quot;misalnya&quot;&gt;Misalnya&lt;/h6&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;hello&quot;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;11.5&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h6 id=&quot;output&quot;&gt;output&lt;/h6&gt;
+&lt;pre&gt;&lt;span class=&quot;cmd&quot;&gt;$ &lt;/span&gt;&lt;b&gt;&amp;lt;type 'int'&amp;gt;&lt;/b&gt;&lt;br /&gt;&lt;span class=&quot;cmd&quot;&gt;$ &lt;/span&gt;&lt;b&gt;&amp;lt;type 'str'&amp;gt;&lt;/b&gt;&lt;br /&gt;&lt;span class=&quot;cmd&quot;&gt;$ &lt;/span&gt;&lt;b&gt;&amp;lt;type 'float'&amp;gt;&lt;/b&gt;&lt;br /&gt;&lt;/pre&gt;
+
+&lt;h4 id=&quot;tipe-data-standar&quot;&gt;Tipe Data Standar&lt;/h4&gt;
+&lt;p&gt;Variabledapat menampung berbagai jenis nilai, nama seseorang harus di simpan sebagai string dan idnya harus di simpan sebagai integer.
+Python menyediakan berbagai tipe data yang menentukan metode penyimpananya masing-masing, berikut tipe data yang didefinisikan dalam python :&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Integer&lt;/li&gt;
+  &lt;li&gt;String&lt;/li&gt;
+  &lt;li&gt;Boolean&lt;/li&gt;
+  &lt;li&gt;Float&lt;/li&gt;
+  &lt;li&gt;Hexadecimal&lt;/li&gt;
+  &lt;li&gt;Complex&lt;/li&gt;
+  &lt;li&gt;List&lt;/li&gt;
+  &lt;li&gt;Tuple&lt;/li&gt;
+  &lt;li&gt;Dictionary&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;angka&quot;&gt;Angka&lt;/h5&gt;
+&lt;p&gt;menyimpan nilai numerik , Python membuat objek number ketika nomor di tugaskan de Variable.&lt;/p&gt;
+&lt;h6 id=&quot;misalnya-1&quot;&gt;Misalnya&lt;/h6&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;#a dan b adalah objek angka&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Python mendukung 4 tipe data momor.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;int&lt;/li&gt;
+  &lt;li&gt;long&lt;/li&gt;
+  &lt;li&gt;complex&lt;/li&gt;
+  &lt;li&gt;float&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;string&quot;&gt;String&lt;/h5&gt;
+&lt;p&gt;String dapat didefinisikan sebagai urutan karakter yang di wakili oleh tanda kutip.
+Dalam string operator + digunakan untuk menggabungkan dua String.&lt;/p&gt;
+&lt;h6 id=&quot;misalnya-2&quot;&gt;Misalnya&lt;/h6&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;nama1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;andro&quot;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;#String 1
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nama2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;code&quot;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;#String 2
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nama1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nama2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;#string1+string2&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h6 id=&quot;output-1&quot;&gt;output&lt;/h6&gt;
+&lt;pre&gt;&lt;span class=&quot;cmd&quot;&gt;$ &lt;/span&gt;&lt;b&gt;androcode&lt;/b&gt;&lt;br /&gt;&lt;/pre&gt;
+
+&lt;h5 id=&quot;list&quot;&gt;List&lt;/h5&gt;
+&lt;p&gt;List dapat berisi data dari berbagai tipe item yang di simpan dalam list dipisah dengan koma(,) dan terlampir dalam kurung siku [].
+Kita dapat menggunakan operator slice [:] untuk mengakses data daftar. Operator gabungan (+) dan operator pengulangan ( * ) bekerja dengan daftar dengan cara yang sama seperti mereka bekerja dengan string.&lt;/p&gt;
+
+&lt;h6 id=&quot;misalnya-3&quot;&gt;Misalnya&lt;/h6&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;l&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;hi&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;andro&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;code&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;  
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;l&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:]);&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;l&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;l&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;l&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h6 id=&quot;output-2&quot;&gt;output&lt;/h6&gt;
+&lt;pre&gt;&lt;span class=&quot;cmd&quot;&gt;$ &lt;/span&gt;&lt;b&gt;['code']&lt;/b&gt;&lt;br /&gt;&lt;span class=&quot;cmd&quot;&gt;$ &lt;/span&gt;&lt;b&gt;[1, 'hi']&lt;/b&gt;&lt;br /&gt;&lt;span class=&quot;cmd&quot;&gt;$ &lt;/span&gt;&lt;b&gt;[1, 'hi', 'andro', 'code']&lt;/b&gt;&lt;br /&gt;&lt;span class=&quot;cmd&quot;&gt;$ &lt;/span&gt;&lt;b&gt;[1, 'hi', 'andro', 'code', 1, 'hi', 'andro', 'code']&lt;/b&gt;&lt;br /&gt;&lt;span class=&quot;cmd&quot;&gt;$ &lt;/span&gt;&lt;b&gt;[1, 'hi', 'andro', 'code', 1, 'hi', 'andro', 'code', 1, 'hi', 'andro', 'code']&lt;/b&gt;&lt;br /&gt;&lt;/pre&gt;
+
+&lt;h5 id=&quot;tuple&quot;&gt;Tuple&lt;/h5&gt;
+&lt;p&gt;Sebuah tuple mirip dengan daftar dalam banyak hal. Seperti daftar, tupel juga berisi koleksi item dari berbagai tipe data. Butir tupel dipisahkan dengan koma (,) dan diapit tanda kurung ().&lt;/p&gt;
+
+&lt;p&gt;Sebuah tuple adalah struktur data read-only karena kami tidak dapat mengubah ukuran dan nilai item tuple.&lt;/p&gt;
+
+&lt;h5 id=&quot;dictionary&quot;&gt;Dictionary&lt;/h5&gt;
+&lt;p&gt;Kamus adalah seperangkat item nilai kunci yang dipesan. Ini seperti array asosiatif atau tabel hash di mana setiap kunci menyimpan nilai tertentu. Kunci dapat menampung semua tipe data primitif sedangkan nilainya adalah objek Python yang arbitrer.
+Item dalam kamus dipisahkan dengan koma dan dilampirkan dalam kurung kurawal {}.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;(https://belajarpython.com/tutorial/tipe-data-python)&lt;br /&gt;
+(https://www.javatpoint.com/python-data-types)&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
+        <link>https://irhamhaha.github.io/Tipe-Data-Python/</link>
+        <guid isPermaLink="true">https://irhamhaha.github.io/Tipe-Data-Python/</guid>
+        
+        <category>python</category>
+        
+        
+        <category>PYTHON</category>
+        
+      </item>
+    
+      <item>
+        <title>Belajar Laravel : Install Laravel Di Linux</title>
+        <description>&lt;p&gt;Tutorial ini berfungsi untuk semua distro linux. Mau pakai Ubuntu, Linux Mint semua bisa. Asalkan sistem kamu memenuhi spesifikasi berikut:
+&lt;!--more--&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;PHP &amp;gt;= 7.0 (sejak laravel versi 5.5 minimum php7)&lt;/li&gt;
+  &lt;li&gt;OpenSSL PHP Extension&lt;/li&gt;
+  &lt;li&gt;PDO PHP Extension&lt;/li&gt;
+  &lt;li&gt;Mbstring PHP Extension&lt;/li&gt;
+  &lt;li&gt;Tokenizer PHP Extension&lt;/li&gt;
+  &lt;li&gt;XML PHP Extension&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;install-composer&quot;&gt;Install Composer&lt;/h2&gt;
+
+&lt;p&gt;Composer adalah aplikasi manajer paket untuk bahasa pemrograman PHP yang menyediakan format standar untuk mengelola dependensi PHP dan pustaka-pustaka yang diperlukan.&lt;/p&gt;
+
+&lt;p&gt;Untuk menginstallnya bisa menggunakan perintah :&lt;/p&gt;
+
+&lt;pre&gt;&lt;span class=&quot;cmd&quot;&gt;$ &lt;/span&gt;&lt;b&gt;sudo apt install composer&lt;/b&gt;&lt;br /&gt;&lt;/pre&gt;
+
+&lt;p&gt;Setelah selesai kita bisa membuat projek dengan perintah :&lt;/p&gt;
+
+&lt;pre&gt;&lt;span class=&quot;cmd&quot;&gt;$ &lt;/span&gt;&lt;b&gt;laravel new blog&lt;/b&gt;&lt;br /&gt;&lt;/pre&gt;
+
+&lt;p&gt;atau&lt;/p&gt;
+
+&lt;pre&gt;&lt;span class=&quot;cmd&quot;&gt;$ &lt;/span&gt;&lt;b&gt;composer create-project --prefer-dist laravel/laravel blog&lt;/b&gt;&lt;br /&gt;&lt;/pre&gt;
+
+&lt;p&gt;Dan Saya membuat projek dengan nama &lt;em&gt;blog&lt;/em&gt;
+Tetapi saya lebih sering menggunakan yg ke-dua&lt;/p&gt;
+
+&lt;h2 id=&quot;testing-laravel&quot;&gt;Testing Laravel&lt;/h2&gt;
+&lt;p&gt;Jika proses di atas lancar tanpa error. Maka laravel sudah terinstall dengan baik.
+Sekarang kita masuk ke direktori project kita kemudian masukkan perintah di terminal anda :&lt;/p&gt;
+
+&lt;pre&gt;&lt;span class=&quot;cmd&quot;&gt;$ &lt;/span&gt;&lt;b&gt;php artisan serve&lt;/b&gt;&lt;br /&gt;&lt;/pre&gt;
+
+&lt;p&gt;Maka laravel akan berjalan menggunakan default server php, pada port 8000. Sehingga ketika kita membuka http://localhost:8000&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/placeholder.svg&quot; alt=&quot;gambar_laraver priwiew&quot; data-echo=&quot;https://1.bp.blogspot.com/--mZ0pEjxQNw/Xy-E2o2xkwI/AAAAAAAAE2U/gouUfZBlpJwtD4FZJNX9rqKc_vkUmssJACLcBGAsYHQ/s1365/Screenshot_20200809_120508.png&quot; onerror=&quot;imgError(this);&quot; class=&quot;myImg rounded-sm&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Referensi : https://id.wikipedia.org/wiki/Laravel&lt;br /&gt;
+Referensi	: https://id.wikipedia.org/wiki/Composer&lt;br /&gt;
+Reverensi : https://jagongoding.com/web/laravel/cara-install-laravel-di-linux/&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Fri, 20 Nov 2020 00:00:00 +0000</pubDate>
+        <link>https://irhamhaha.github.io/install-Laravel/</link>
+        <guid isPermaLink="true">https://irhamhaha.github.io/install-Laravel/</guid>
+        
+        <category>Tips</category>
+        
+        <category>linux</category>
+        
+        <category>php</category>
+        
+        <category>laravel</category>
+        
+        <category>composer</category>
+        
+        
+        <category>TIPS</category>
+        
+        <category>LINUX</category>
+        
+      </item>
+    
+      <item>
+        <title>Belajar Python : Fitur Python</title>
+        <description>&lt;p&gt;Python menyediakan banyak fitue yang tercantum di bawah ini :&lt;/p&gt;
+
+&lt;h3 id=&quot;1-mudah-dipelajari-dan-digunakan&quot;&gt;1. Mudah dipelajari dan digunakan&lt;/h3&gt;
+
+&lt;p&gt;Python mudah dipahami dan dipelajari dan digunakan. Ini alasan bahsasa pemrograman tingkat tinggi yang ramah bagi pengembang.
+&lt;!--more--&gt;&lt;/p&gt;
+&lt;h3 id=&quot;2-bahasa-ekspresif&quot;&gt;2. Bahasa ekspresif&lt;/h3&gt;
+
+&lt;p&gt;Bahasa python lebih ekspresif berarti lebih mudah di mengerti dan dibaca.&lt;/p&gt;
+
+&lt;h3 id=&quot;3-bahasa-yang-diartikan&quot;&gt;3. Bahasa yang diartikan&lt;/h3&gt;
+
+&lt;p&gt;Python adalah bahasa yang di tafsirkan yaitu penerjemah membaca kode baris pada suatu waktu.
+Ini membuat debuggung mudah dan dengan demikian cocok untuk pemula.&lt;/p&gt;
+
+&lt;h3 id=&quot;4-bahasa-lintas-platfrom&quot;&gt;4. Bahasa lintas platfrom&lt;/h3&gt;
+
+&lt;p&gt;Python dapat berjalan secara sama pada platfrom yang berbeda seperti windows, linux, unux dan macintosh.
+jadi kita bisa mengatan bahwa python adalah bahasa potable.&lt;/p&gt;
+
+&lt;h3 id=&quot;5-bahasa-berorientasi-objek&quot;&gt;5. Bahasa Berorientasi Objek&lt;/h3&gt;
+
+&lt;p&gt;Python mendukung basasa beririentasi objek dan akses kelas dan objek muncul&lt;/p&gt;
+
+&lt;h3 id=&quot;6-dapat-diperpanjang&quot;&gt;6. Dapat diperpanjang&lt;/h3&gt;
+
+&lt;p&gt;Ini menyiratkan bahwa bahasa lain seperti C\C++ dapat di gunakan untuk mengkompilasi kode dan dengan demikian dapat di gunakan lebih lanjut dalam kode python.&lt;/p&gt;
+
+&lt;h3 id=&quot;7-library-standar-besar&quot;&gt;7. Library standar besar&lt;/h3&gt;
+
+&lt;p&gt;Python memiliki library yang luas serta menyediakan serangkaian modul dan fungsi untuk mengembangkan aplikasi yang cepat.&lt;/p&gt;
+
+&lt;h3 id=&quot;8-terintegrasi&quot;&gt;8. Terintegrasi&lt;/h3&gt;
+
+&lt;p&gt;Itu dapat dengan mudah di integrasikan dengan bahasa seperti C,C++,JAVA Dll.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Referensi : (https://www.javatpoint.com/python-features)&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Mon, 16 Nov 2020 00:00:00 +0000</pubDate>
+        <link>https://irhamhaha.github.io/Fitur-Python/</link>
+        <guid isPermaLink="true">https://irhamhaha.github.io/Fitur-Python/</guid>
+        
+        <category>python</category>
+        
+        
+        <category>PYTHON</category>
+        
+      </item>
+    
+      <item>
+        <title>Belajar Python : Pengenalan Python</title>
+        <description>&lt;h1 id=&quot;apa-itu-python-&quot;&gt;Apa itu Python ?&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Python&lt;/strong&gt; merupakan bahasa pemrograman umum, dinamis, tingkat tinggi yang di racik oleh &lt;strong&gt;Guido van Rossum&lt;/strong&gt;.
+&lt;!--more--&gt;
+Ini mendukung pendekatan pemrograman berorientasi objek untuk mengembangkan aplikasi. Ini sederhana dan mudah di pelajari dan menyediakan banyak struktur data tingkat tinggi.
+Python mudah dipellajari namun kuat dan bahasa scriping yang fleksibel, yang membuatnya menarik untukpengembangan aplikasi.
+Python banyak digunakan untuk membuat berbagai macam program seperti : Program CLI, Program GUI, Aplikasi Mobile, Web, IoT dan Game.&lt;/p&gt;
+
+&lt;h2 id=&quot;sejarah-python&quot;&gt;Sejarah Python&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Python meletakkan fondasinya pada akhir 1980-an&lt;/li&gt;
+  &lt;li&gt;Implementasi Python dimulai pada Desember 1989 oleh &lt;strong&gt;Guido Van Rossum&lt;/strong&gt; di CWI di Belanda&lt;/li&gt;
+  &lt;li&gt;Pada februari 1991, van Rossum menerbitkan kode versi 0.9.0 ke alt.sources&lt;/li&gt;
+  &lt;li&gt;Pada tahun 1994 Python 1.0 dengan fitur-fitur baru seperti : lambda, map, filter dan reduce&lt;/li&gt;
+  &lt;li&gt;Python 2.0 menambahkan fitur-fiyur baru seperti: daftar pemahaman sistem pengumpulan sampah&lt;/li&gt;
+  &lt;li&gt;Pada 3 Desember 2008 Python 3.0(juga di sebut Py3K) dirilis. Itu di rancang untuk memperbaiki kelemahan mendasar bahasa&lt;/li&gt;
+  &lt;li&gt;Bahasa pemrograman ABC dikatan sebagai pendahulu bahasa python yang mampu menangani dan beinteraksi dengan pengecualiaan sistem operasi amuba&lt;/li&gt;
+  &lt;li&gt;Python di pengaruhi oleh bahasa pemrograman berikut :
+ 	1. Bahasa ABC
+ 	2. Modula -3&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;aplikasi-python&quot;&gt;Aplikasi Python&lt;/h2&gt;
+&lt;p&gt;Python dikenal karena berlaku di hampir setiap domain pengembangan perangkat lunak . Python secara keselurun dapat di gunakan dalam bidang pengembangan apa pun.
+Python dapat di terapkan :&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Aplikasi WEB&lt;/li&gt;
+  &lt;li&gt;Aplikasi GUI Deskop&lt;/li&gt;
+  &lt;li&gt;Pengembang perangkat lunak&lt;/li&gt;
+  &lt;li&gt;Ilmiah dan Numerik&lt;/li&gt;
+  &lt;li&gt;Aplikasi Bisnis&lt;/li&gt;
+  &lt;li&gt;Aplikasi Berbasis Konsole&lt;/li&gt;
+  &lt;li&gt;Aplikasi CAD 3D&lt;/li&gt;
+  &lt;li&gt;Aplikasi Perusahaan&lt;/li&gt;
+  &lt;li&gt;Aplikasi Untuk Gambar&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;cara-install-python&quot;&gt;Cara Install Python&lt;/h2&gt;
+&lt;p&gt;Bagi pengguna Linux, Python tidak perlu di install karna sebagai besar distro linux sudah menyediakannya secara default.
+Untuk mengeceknya silahkan ketik perintah &lt;em&gt;python –version&lt;/em&gt; di terminal.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;python &lt;span class=&quot;nt&quot;&gt;--version&lt;/span&gt;
+python 2.7.12&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;python-versi-2-dan-python-versi-3&quot;&gt;Python Versi 2 dan Python versi 3&lt;/h2&gt;
+&lt;p&gt;Ada dua vesi Python yang beredar saat in yaiytu versi 2 dan 3.&lt;/p&gt;
+
+&lt;p&gt;Python versi 2 merupakan versi yang banyak digunakan saat ini, baik dilingkungan produksi dan pengembangan.
+Sementara Python versi 3 adalah pengembangan lanjutan dari versi 2. Python 3 memiliki lebih banyak fitur dibandingkan Python 2.
+ Untuk membuka python 2 kita hanya menggunakan perintah &lt;em&gt;python&lt;/em&gt;
+ saja, sedangkan python3 menggunakan perintah &lt;em&gt;python3&lt;/em&gt;
+&lt;img src=&quot;/assets/img/placeholder.svg&quot; alt=&quot;gambar_python&quot; data-echo=&quot;https://1.bp.blogspot.com/-zKMBdqPgVgI/XtsA93HRaxI/AAAAAAAAAGM/gnbSCJMKjwcJWNU9VzVTFgzat5MUxaOkgCK4BGAsYHg/s865/Screenshot_20200606_093112.png&quot; onerror=&quot;imgError(this);&quot; class=&quot;myImg rounded-sm&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate>
+        <link>https://irhamhaha.github.io/Pengenalan-Python/</link>
+        <guid isPermaLink="true">https://irhamhaha.github.io/Pengenalan-Python/</guid>
+        
+        <category>python</category>
+        
+        
+        <category>PYTHON</category>
+        
+      </item>
+    
+      <item>
+        <title>Mysql : Buat Database Mysql di Terminal</title>
+        <description>&lt;p&gt;Di postingan sebelumnya kita sudah mengetahui &lt;a href=&quot;https://andro-code.my.id/mysql/&quot;&gt;apa itu mysql dan cara installnya&lt;/a&gt;, kali ini kita akan membuat database mysql di terminal,
+&lt;!--more--&gt; 
+dan database mysql sendiri bisa dibuat dengan &lt;em&gt;phpmyadmin&lt;/em&gt;  lewat browser untuk cara installnya kalian bisa cari tutorialnya sendiri.
+Baik kalau gitu mari kita mulai saja buat databasenya :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Masuk ke dalam pengolahan data mysql dengan memasukkan perintah berikut di terminal anda&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;span class=&quot;cmd&quot;&gt;$ &lt;/span&gt;&lt;b&gt;sudo mysql -u root -p&lt;/b&gt;&lt;br /&gt;&lt;/pre&gt;
+
+&lt;p&gt;Kemudian masukkan password anda yg sudah di setinng sebelumnya 
+jika berhasil akan muncul tampilan seperti berikut&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/placeholder.svg&quot; alt=&quot;gambar_mysql&quot; data-echo=&quot;https://1.bp.blogspot.com/-_owMToHBEDo/X2pnsfguwBI/AAAAAAAAE5A/FUwWUDGwLOAH25WV2FMkbHR1FsMAVg-owCLcBGAsYHQ/s574/viewmysql.jpg&quot; onerror=&quot;imgError(this);&quot; class=&quot;myImg rounded-sm&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Setelah masuk kita bisa buat database dengan memasukkan perintah&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;CREATE DATABASE db_name&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Ganti &lt;strong&gt;db_name&lt;/strong&gt; dengan nama  database yg ingin kita buat, saya akan membuat database dengan nama belajar oh iya setelah kita mengetikkan perintah di mysql jangan lupa kasih tanda ; (titik koma)&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;CREATE DATABASE belajar&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;jika berhasik akan ada keterangan &lt;em&gt;Query ok&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/placeholder.svg&quot; alt=&quot;gambar_mysql ok&quot; data-echo=&quot;https://1.bp.blogspot.com/-I8rphqFsGJ4/X2pnrA1CDeI/AAAAAAAAE40/eYTxnKED-6cbOh_qhyk4GrVrO6QcmA5gQCLcBGAsYHQ/s597/create%2Bdatabase.png&quot; onerror=&quot;imgError(this);&quot; class=&quot;myImg rounded-sm&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Dan untuk mengecek database kita, bisa memasukkan perintah&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;SHOW DATABASE&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Maka akan tampil semua database yg sudah pernah kita buat&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/placeholder.svg&quot; alt=&quot;gambar_show mysql&quot; data-echo=&quot;https://1.bp.blogspot.com/-KKz8xre8vKk/X2pnryqZoZI/AAAAAAAAE44/hD8ijEEJMuQ1c_NjJkHC-0tPX_DFAOAmQCLcBGAsYHQ/s598/showdatabase.png&quot; onerror=&quot;imgError(this);&quot; class=&quot;myImg rounded-sm&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Dan untuk perpindah ke halaman database kita bisa mengetikkan perintah&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;USE db_name&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Tadi kita buat database dengan nama belajar, maka masukkan perintah&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;USE belajar&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Maka akan tampil seperti ini&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/placeholder.svg&quot; alt=&quot;gambar_Use mysql&quot; data-echo=&quot;https://1.bp.blogspot.com/-euyeQbalxwA/X2pnsT9dtJI/AAAAAAAAE48/EOuX0_gxO6AAuO5QZAuHiX3SayGGUnszwCLcBGAsYHQ/s579/usedb.png&quot; onerror=&quot;imgError(this);&quot; class=&quot;myImg rounded-sm&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sampai saat ini kita sudah bisa membuat database mysql dengan nama belajar, setelah ini kita bisa membuat table di dalam database belajar.
+Untuk membuat table kita bisa memasukkan perintah&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;CREATE TABLE nama_table &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;id &lt;/span&gt;INT AUTO_INCREMENT PRIMARY KEY,
+    nama VARCHAR&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;255&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;,
+    alamat VARCHAR&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;255&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Ganti &lt;strong&gt;nama_table&lt;/strong&gt; dengan nama tabel yg ingin kalian buat, kali ini saya kan membuat nama table dengan nama &lt;em&gt;siswa&lt;/em&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;CREATE TABLE siswa&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;id &lt;/span&gt;INT AUTO_INCREMENT PRIMARY KEY,
+    nama VARCHAR&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;255&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;,
+    alamat VARCHAR&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;255&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Jika berhasil akan tampil seperti berikut&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/placeholder.svg&quot; alt=&quot;gambar_query ok&quot; data-echo=&quot;https://1.bp.blogspot.com/-5tK20-K2WZQ/X2pnrMJX2BI/AAAAAAAAE4s/Y0zST5JjUu4YBmXEhklhgcduWzqAtMO-gCLcBGAsYHQ/s597/createtable.png&quot; onerror=&quot;imgError(this);&quot; class=&quot;myImg rounded-sm&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Untuk memasukkan data ke dalam table siswa kita bisa memasukkan perintah&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;INSERT INTO siswa&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;nama, alamat&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; VALUES &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Irham&quot;&lt;/span&gt;, &lt;span class=&quot;s2&quot;&gt;&quot;Bungu&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Ganti data sesuai keinginan anda, dan jika berhasil akan ada keterangan &lt;em&gt;Query ok&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Untuk melihat data di dalam table siswa kita bisa memasukkan perintah&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;SELECT &lt;span class=&quot;k&quot;&gt;*&lt;/span&gt; FROM siswa&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Untuk &lt;strong&gt;siswa&lt;/strong&gt; ganti sesuai dg nama table anda.
+Maka tampil seperti berikut&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/placeholder.svg&quot; alt=&quot;gambar_ok&quot; data-echo=&quot;https://1.bp.blogspot.com/-6oEGGbeoaaA/X2pnrF8wAcI/AAAAAAAAE4w/DuwI6PoRk9I5RAconR61VhWzaKOb4fZSACLcBGAsYHQ/s573/lihatdata.png&quot; onerror=&quot;imgError(this);&quot; class=&quot;myImg rounded-sm&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Untuk menghapus data pada table bisa memasukkan perinta&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;DELET FROM siswa WHERE &lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;1&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Itu untuk menghapus data berdasarkan id nya.&lt;/p&gt;
+
+&lt;p&gt;Dan untuk Menghapus database bisa memasukkan perintah&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;DROP DATABASE db_name&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+</description>
+        <pubDate>Fri, 13 Nov 2020 00:00:00 +0000</pubDate>
+        <link>https://irhamhaha.github.io/Buat-Database-Mysql-di-Terminal/</link>
+        <guid isPermaLink="true">https://irhamhaha.github.io/Buat-Database-Mysql-di-Terminal/</guid>
+        
+        <category>mysql</category>
+        
+        <category>linux</category>
+        
+        <category>Tips</category>
+        
+        
+        <category>MYSQL</category>
+        
+        <category>LINUX</category>
+        
+      </item>
+    
+  </channel>
+</rss>
