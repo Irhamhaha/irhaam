@@ -14,14 +14,7 @@ hot:
 contributors: []
 description: "Setelah sebelumnya kita membahas pengenalan Html, text editor, kini kita akan memasuki pengenalan dan penggunaan Tag, Element dan atribut dalam HTML"
 ---
-Setelah sebelumnya kita membahas pengenalan Html, text editor, kini kita akan memasuki <!--more--> pengenalan dan penggunaan Tag, Element dan atribut dalam HTML.
-
-## Daftar isi
-
-- [Tag html](#tag-html)
-- [Element html](#element-html)
-- [Atribut html](#atribut-html)
-
+Setelah sebelumnya kita membahas pengenalan Html, text editor, kini kita akan memasuki  pengenalan dan penggunaan Tag, Element dan atribut dalam HTML.
  Ketiga pembahasan ini merupakan dasar penulisa kode HTML. atau dasar dari seluruh tampilan halaman web yang ada di internet.
 
 ## Tag HTML
@@ -35,7 +28,7 @@ Baik text itu berupa list, paragraf, link dan sebagainya.Di sinilah di gunakan t
 ```
 
 Perbedaan antara tag pembuka dan penutup yaitu, pada tag pembuka di awali kurung sudut pembuka dan di ahiri kurung sudut penutup(< >)
-, Sedangkan pada tag penutup di awali dengan kurung sudut pembuka , backslash, dan  di ahiri penutup kurung sudut (</>).
+Sedangkan pada tag penutup di awali dengan kurung sudut pembuka , backslash, dan  di ahiri penutup kurung sudut (</>).
 
 berikut jenis tag yang sering di gunakan dalam Html :
 {% image https://1.bp.blogspot.com/-HvFW39Pg3qo/Xtjm7OYcclI/AAAAAAAAAEc/7YuxZk3G3WMqgiKXgOi86EIQ-dpjyYUagCK4BGAsYHg/s1091/1.png | 01 %}
@@ -51,6 +44,7 @@ berikut jenis tag yang sering di gunakan dalam Html :
 Elemen pada html merupakan isi atau objek yang berada dalam tag
 magsutnya isi yang berada di antara tag membuka dan penutup di
 sebut sebagai element misalnya :
+
 ``` html
 <!DOCTYPE html>
 <html>
